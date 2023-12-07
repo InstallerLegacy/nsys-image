@@ -19,7 +19,7 @@
 
 First you need to download a Unix v5 disk image and the nsys kernel modified to run with Unix v5 userland.
 
-- [Unix v5 disk image](https://www.tuhs.org/Archive/Distributions/Research/Dennis_v3/modified_nsys.tar.gz)
+- [Modified `nsys` kernel archive](https://www.tuhs.org/Archive/Distributions/Research/Dennis_v3/modified_nsys.tar.gz)
 - [Unix v5 disk image](https://www.tuhs.org/Archive/Distributions/Research/Dennis_v5/v5root.gz)
 
 Extract both archives, and move the file in the folder `modified_nsys/conf/` called `unix` as well as the file called `v5root` into a new folder. Rename the file called `unix` to `nsys.binary` to avoid any confusion. You can do all this with these commands:
